@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+    body {
+        @apply bg-slate-200;
+        font-family: "PT Sans", sans-serif;
+    }
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+}
+
+@layer components {
+    .container-md {
+        /* @apply mx-[14rem]; */
+        @apply w-full;
+    }
+
+    .container-sm {
+        /* @apply mx-[1.25rem]; */
+        @apply w-full p-4;
+    }
+
+    /* .text-outline {
+        color: white;
+        -webkit-text-stroke: 1px black;
+    } */
+}
+
+/* .field-sm {
+    background: url("/assets/img/fields/field-green.webp") no-repeat;
+    background-size: 100% 480px;
+    border-radius: 5px;
+} */
+
+.field {
+    background: url("/assets/img/fields/field.webp") no-repeat;
+    background-size: 378px 480px;
+}

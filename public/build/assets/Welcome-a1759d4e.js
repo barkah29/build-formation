@@ -1,0 +1,1 @@
+import{j as o,F as t,a as r,H as a}from"./app-e9b8313f.js";import{C as e}from"./Container-85472332.js";import{L as s}from"./Layouts-8f72c9ab.js";import"./transition-6e5962f9.js";function d(i){return o(t,{children:[r(a,{title:"Home"}),r(s,{children:r("section",{children:r(e,{})})})]})}export{d as default};
